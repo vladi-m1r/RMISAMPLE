@@ -11,7 +11,7 @@ En la carpeta cliente y servidor
 
 ## Compilar servidor y cliente
 En la carpeta cliente
-- javac -cp build/methods.jar rmi_client/Cliente.java
+- javac -cp build/methods.jar rmi_client/Client.java
 
 En la carpeta servidor
 - javac -cp build/methods.jar rmi_server/Server.java
@@ -33,10 +33,10 @@ En esta seccion cambiar el path codebase si methods.jar se encuentra en otro lad
 ## Ejecutando cliente
 En Windows:
 
-* java -Djava.rmi.server.codebase=file:/C:/Users/vladi/RMISAMPLE/server/build/methods.jar rmi_client.Cliente 192.168.1.5
+* java -Djava.rmi.server.codebase=file:/C:/Users/vladi/RMISAMPLE/server/build/methods.jar rmi_client.Client 192.168.1.5
 
 En Linux:
 
-* java -Djava.rmi.server.codebase=file:/home/vladi/RMISAMPLE/server/build/methods.jar rmi_client.Cliente 192.168.1.5
+* java -Djava.rmi.server.codebase=file:/home/vladi/RMISAMPLE/server/build/methods.jar rmi_client.Client 192.168.1.5
   
 Al igual que el punto anterior modificar el path de codebase apuntando siempre a methods.jar y el host que deberia ser el mismo que se definio en el servidor.
