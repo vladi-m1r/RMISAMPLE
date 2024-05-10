@@ -1,3 +1,0 @@
-grant codeBase "file:/C:/Users/vladi/OneDrive/Escritorio/RMISAMPLE/server/" {
-    permission java.security.AllPermission;
-};

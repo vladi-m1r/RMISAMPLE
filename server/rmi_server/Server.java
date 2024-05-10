@@ -16,10 +16,6 @@ public class Server implements IMethods
 
     public static void main(String[] args)
     {
-        if (System.getSecurityManager() == null)
-        {
-            System.setSecurityManager(new SecurityManager());
-        }
         try
         {
             String name = "Methods";
