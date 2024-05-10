@@ -1,0 +1,3 @@
+grant codeBase "file:/C:/Users/vladi/OneDrive/Escritorio/RMISAMPLE/client/" {
+    permission java.security.AllPermission;
+};
